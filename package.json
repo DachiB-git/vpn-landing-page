@@ -1,9 +1,12 @@
 {
+  "homepage": "http://DachiB-git/vpn-landing-page",
   "name": "vpn-landing-page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "depoloy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

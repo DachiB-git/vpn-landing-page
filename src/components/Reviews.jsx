@@ -91,10 +91,10 @@ export default function Reviews() {
   return (
     <>
       <section className="reviews-section">
-        <h2 className="reviews-title">
+        <h2 className="section-title">
           Trusted by Thousands of Happy Customers
         </h2>
-        <p className="reviews-subtitle">
+        <p className="section-subtitle">
           These are the stories of our customers who have joined us with great
           pleasure when using this crazy feature.
         </p>
@@ -200,8 +200,8 @@ export default function Reviews() {
           </div>
         </div>
       </section>
-      {/* <div className="subscription-modal">
-        <div>
+      <div className="subscription-modal">
+        <div className="modal-text">
           <h2 className="modal-title">
             Subscribe Now To Get Special Features!
           </h2>
@@ -209,10 +209,10 @@ export default function Reviews() {
             Let's subscribe with us and find the fun.
           </p>
         </div>
-        <button className="btn-filled modal-subscribe-btn">
+        <button className="btn btn-filled modal-subscribe-btn">
           Subscribe Now
         </button>
-      </div> */}
+      </div>
     </>
   );
 }

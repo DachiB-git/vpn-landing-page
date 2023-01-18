@@ -5,14 +5,14 @@ import server from "../assets/server-icon.svg";
 export default function Hero() {
   return (
     <div className="hero">
-      <h1 className="hero-title">
+      <h1 className="section-title">
         Surf the web anonymously with
         <span className="bold-big"> LaslesVPN.</span>
       </h1>
 
       <img className="hero-image" src={hero} />
 
-      <p className="hero-subtitle">
+      <p className="section-subtitle">
         Provide a network for all your needs with ease and fun using LaslesVPN
         discover interesting features from us.
       </p>

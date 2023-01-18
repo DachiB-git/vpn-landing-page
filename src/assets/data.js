@@ -37,7 +37,7 @@ const reviewData = [
     fullName: "John Doe",
     location: "Chicago, USA",
     rating: 4.5,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus suscipit itaque ullam deleniti doloribus tempora aut voluptatibus accusantium error. Excepturi quas nemo eius sit pariatur.",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus suscipit itaque ullam deleniti doloribus tempora aut voluptatibus accusantium error.",
   },
 ];
 export default reviewData;

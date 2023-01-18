@@ -5,8 +5,8 @@ import check from "../assets/plans-check-icon.svg";
 export default function Plans() {
   return (
     <section className="plans-section">
-      <h2 className="plans-title">Choose Your Plan</h2>
-      <p className="plans-subtitle">
+      <h2 className="section-title">Choose Your Plan</h2>
+      <p className="section-subtitle">
         Let's choose the package that is best for you and explore it happily and
         cheerfully.
       </p>

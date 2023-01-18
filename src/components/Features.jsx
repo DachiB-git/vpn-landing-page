@@ -6,8 +6,8 @@ export default function Features() {
       <img className="features-image" src={features} />
 
       <div className="features-content">
-        <h2 className="features-title">We Provide Many Features You Can Use</h2>
-        <p className="features-subtitle">
+        <h2 className="section-title">We Provide Many Features You Can Use</h2>
+        <p className="section-subtitle">
           You can explore the features that we provide with fun and have their
           own functions each feature.
         </p>
